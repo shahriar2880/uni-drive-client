@@ -1,0 +1,136 @@
+src/
+├── assets/
+│   ├── images/
+│   └── styles/
+│       └── index.css
+│
+├── components/
+│   ├── common/
+│   │   ├── Navbar.jsx
+│   │   ├── Footer.jsx
+│   │   ├── LoadingSpinner.jsx
+│   │   ├── CarCard.jsx
+│   │   ├── StarRating.jsx
+│   │   ├── Button.jsx
+│   │   ├── Table.jsx
+│   │   └── Modal.jsx
+│   │
+│   ├── forms/
+│   │   ├── LoginForm.jsx
+│   │   ├── RegisterForm.jsx
+│   │   ├── AddCarForm.jsx
+│   │   └── BookingForm.jsx
+│   │
+│   ├── home/
+│   │   ├── Banner.jsx
+│   │   ├── WhyChooseUs.jsx
+│   │   ├── RecentListings.jsx
+│   │   └── ExtraSections/
+│   │       ├── SpecialOffers.jsx
+│   │       └── Testimonials.jsx
+│   │
+│   ├── cars/
+│   │   ├── CarGrid.jsx
+│   │   ├── CarList.jsx
+│   │   ├── CarDetails.jsx
+│   │   ├── CarFilters.jsx
+│   │   └── SearchBar.jsx
+│   │
+│   └── bookings/
+│       ├── BookingTable.jsx
+│       ├── BookingChart.jsx
+│       ├── BookingModal.jsx
+│       └── DatePicker.jsx
+│
+├── contexts/
+│   ├── AuthContext.jsx
+│   ├── BookingContext.jsx
+│   └── CarContext.jsx
+│
+├── hooks/
+│   ├── useAuth.js
+│   ├── useBooking.js
+│   ├── useCars.js
+│   ├── usePagination.js
+│   └── useSearch.js
+│
+├── layouts/
+│   ├── MainLayout.jsx
+│   └── DashboardLayout.jsx
+│
+├── pages/
+│   ├── Home.jsx
+│   ├── AvailableCars.jsx
+│   ├── AddCar.jsx
+│   ├── MyCars.jsx
+│   ├── CarDetails.jsx
+│   ├── MyBookings.jsx
+│   ├── Login.jsx
+│   ├── Register.jsx
+│   └── NotFound.jsx
+│
+├── routes/
+│   ├── PrivateRoute.jsx
+│   └── Routes.jsx
+│
+├── services/
+│   ├── auth.service.js
+│   ├── car.service.js
+│   └── booking.service.js
+│
+├── utils/
+│   ├── axios.config.js
+│   ├── firebase.config.js
+│   ├── toast.js
+│   ├── dateFormatter.js
+│   └── priceCalculator.js
+│
+├── App.jsx
+└── main.jsx
+
+
+
+
+
+
+
+
+
+
+
+availabilityDate
+: 
+"2025-01-04T13:32:32.000Z"
+bookingCount
+: 
+0
+bookingStatus
+: 
+"Pending"
+carModel
+: 
+"Mercedes-Benz C-Class"
+dailyRentalPrice
+: 
+133
+description
+: 
+"A sophisticated luxury sedan with impeccable design."
+features
+: 
+(3) ['GPS', 'Luxury Design', 'Advanced Safety Features']
+imageUrl
+: 
+"https://i.ibb.co/TWJkF5D/Mercedes-Benz-C-Class.jpg"
+location
+: 
+"Tokyo, Japan"
+saveUserDetails
+: 
+{name: 'Raiyan Jiyon', email: 'raiyanjiyon814@gmail.com', photo: 'https://lh3.googleusercontent.com/a/ACg8ocLC_nEYqqK1Q_V5dgY5Imhhyr2Ju_Q4zdi0rtcinuSqxgtGB8UO=s96-c'}
+vehicleRegistrationNumber
+: 
+"TOKYO-D-15-5678"
+_id
+: 
+"677938fccbf41e151a09312d"

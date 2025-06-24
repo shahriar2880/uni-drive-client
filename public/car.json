@@ -1,0 +1,426 @@
+[
+    {
+        "carModel": "Toyota Corolla",
+        "dailyRentalPrice": 50,
+        "availabilityDate": "2024-12-31",
+        "vehicleRegistrationNumber": "NEW-YORK-D-10-7777",
+        "features": [
+            "GPS",
+            "AC",
+            "Bluetooth Connectivity"
+        ],
+        "description": "A compact and fuel-efficient car, perfect for city driving.",
+        "bookingCount": 0,
+        "imageUrl": "https://i.ibb.co.com/YbGNXHt/toyota-corolla.jpg",
+        "location": "New York, NY",
+        "saveUserDetails": {
+            "name": "John Doe",
+            "email": "johndoe@example.com",
+            "photo": "https://neodrive-be91c.web.app/assets/team2-BTMvrJwq.jpg"
+        },
+        "bookingStatus": "Pending"
+    },
+    {
+        "carModel": "Honda Civic",
+        "dailyRentalPrice": 55,
+        "availabilityDate": "2024-12-29",
+        "vehicleRegistrationNumber": "LONDON-D-11-9999",
+        "features": [
+            "AC",
+            "Heated Seats",
+            "Cruise Control"
+        ],
+        "description": "A reliable sedan with advanced safety features.",
+        "bookingCount": 0,
+        "imageUrl": "https://i.ibb.co.com/2SRgnZS/honda-civic.jpg",
+        "location": "Los Angeles, CA",
+        "saveUserDetails": {
+            "name": "Jane Smith",
+            "email": "janesmith@example.com",
+            "photo": "https://neodrive-be91c.web.app/assets/team1-DiVnwyeY.jpg"
+        },
+        "bookingStatus": "Pending"
+    },
+    {
+        "carModel": "Ford Mustang",
+        "dailyRentalPrice": 100,
+        "availabilityDate": "2025-01-02",
+        "vehicleRegistrationNumber": "DHAKA-D-11-9299",
+        "features": [
+            "GPS",
+            "Convertible",
+            "Premium Audio"
+        ],
+        "description": "A powerful sports car for an exhilarating ride.",
+        "bookingCount": 0,
+        "imageUrl": "https://ibb.co.com/ymhDJhHf",
+        "location": "Miami, FL",
+        "saveUserDetails": {
+            "name": "Mike Johnson",
+            "email": "mikejohnson@example.com",
+            "photo": "https://neodrive-be91c.web.app/assets/team4-BHCgJLUC.jpg"
+        },
+        "bookingStatus": "Pending"
+    },
+    {
+        "carModel": "Chevrolet Tahoe",
+        "dailyRentalPrice": 85,
+        "availabilityDate": "2025-01-05",
+        "vehicleRegistrationNumber": "NEW-YORK-D-11-9999",
+        "features": [
+            "GPS",
+            "AC",
+            "All-Wheel Drive"
+        ],
+        "description": "A spacious SUV for family road trips and off-road adventures.",
+        "bookingCount": 0,
+        "imageUrl": "https://i.ibb.co.com/gRgLncV/chevrolet-tahoe.jpg",
+        "location": "Denver, CO",
+        "saveUserDetails": {
+            "name": "Emma Wilson",
+            "email": "emmawilson@example.com",
+            "photo": "https://neodrive-be91c.web.app/assets/team3-CrbMcU2_.jpg"
+        },
+        "bookingStatus": "Pending"
+    },
+    {
+        "carModel": "Tesla Model 3",
+        "dailyRentalPrice": 120,
+        "availabilityDate": "2024-12-28",
+        "vehicleRegistrationNumber": "CHITTAGONG-D-11-9999",
+        "features": [
+            "GPS",
+            "Autopilot",
+            "Electric"
+        ],
+        "description": "A cutting-edge electric car with autonomous driving features.",
+        "bookingCount": 0,
+        "imageUrl": "https://i.ibb.co.com/ZxgF38D/tesla-model-3.webp",
+        "location": "San Francisco, CA",
+        "saveUserDetails": {
+            "name": "Sophia Davis",
+            "email": "sophiadavis@example.com",
+            "photo": "https://neodrive-be91c.web.app/assets/team2-BTMvrJwq.jpg"
+        },
+        "bookingStatus": "Pending"
+    },
+    {
+        "carModel": "BMW X5",
+        "dailyRentalPrice": 140,
+        "availabilityDate": "2025-01-15",
+        "vehicleRegistrationNumber": "BERLIN-D-12-2345",
+        "features": [
+            "GPS",
+            "Luxury Interior",
+            "All-Wheel Drive"
+        ],
+        "description": "A premium SUV with exceptional performance and comfort.",
+        "bookingCount": 0,
+        "imageUrl": "https://i.ibb.co.com/x5-BMW.jpg",
+        "location": "Berlin, Germany",
+        "saveUserDetails": {
+            "name": "Liam Brown",
+            "email": "liambrown@example.com",
+            "photo": "https://neodrive-be91c.web.app/assets/team5-BMW.jpg"
+        },
+        "bookingStatus": "Pending"
+    },
+    {
+        "carModel": "Audi A4",
+        "dailyRentalPrice": 95,
+        "availabilityDate": "2025-02-01",
+        "vehicleRegistrationNumber": "PARIS-D-13-6789",
+        "features": [
+            "GPS",
+            "Leather Seats",
+            "Turbo Engine"
+        ],
+        "description": "A sleek and stylish sedan with advanced features.",
+        "bookingCount": 0,
+        "imageUrl": "https://i.ibb.co.com/audi-a4.jpg",
+        "location": "Paris, France",
+        "saveUserDetails": {
+            "name": "Noah Miller",
+            "email": "noahmiller@example.com",
+            "photo": "https://neodrive-be91c.web.app/assets/team6-Audi.jpg"
+        },
+        "bookingStatus": "Pending"
+    },
+    {
+        "carModel": "Jeep Wrangler",
+        "dailyRentalPrice": 110,
+        "availabilityDate": "2025-02-20",
+        "vehicleRegistrationNumber": "SYDNEY-D-14-1234",
+        "features": [
+            "GPS",
+            "Off-Road Capability",
+            "Removable Top"
+        ],
+        "description": "An adventurous SUV built for rugged terrain.",
+        "bookingCount": 0,
+        "imageUrl": "https://i.ibb.co.com/jeep-wrangler.jpg",
+        "location": "Sydney, Australia",
+        "saveUserDetails": {
+            "name": "Olivia Taylor",
+            "email": "oliviataylor@example.com",
+            "photo": "https://neodrive-be91c.web.app/assets/team7-Jeep.jpg"
+        },
+        "bookingStatus": "Pending"
+    },
+    {
+        "carModel": "Mercedes-Benz C-Class",
+        "dailyRentalPrice": 130,
+        "availabilityDate": "2025-03-01",
+        "vehicleRegistrationNumber": "TOKYO-D-15-5678",
+        "features": [
+            "GPS",
+            "Luxury Design",
+            "Advanced Safety Features"
+        ],
+        "description": "A sophisticated luxury sedan with impeccable design.",
+        "bookingCount": 0,
+        "imageUrl": "https://i.ibb.co.com/M524yfbr/Mercedes-Benz-C-Class.jpg",
+        "location": "Tokyo, Japan",
+        "saveUserDetails": {
+            "name": "Ethan Davis",
+            "email": "ethandavis@example.com",
+            "photo": "https://neodrive-be91c.web.app/assets/team8-Mercedes.jpg"
+        },
+        "bookingStatus": "Pending"
+    },
+    {
+        "carModel": "Range Rover Evoque",
+        "dailyRentalPrice": 125,
+        "availabilityDate": "2025-03-10",
+        "vehicleRegistrationNumber": "LONDON-D-16-9101",
+        "features": [
+            "GPS",
+            "Panoramic Roof",
+            "Terrain Response System"
+        ],
+        "description": "A luxury SUV designed for both city and off-road adventures.",
+        "bookingCount": 0,
+        "imageUrl": "https://i.ibb.co.com/range-rover-evoque.jpg",
+        "location": "London, UK",
+        "saveUserDetails": {
+            "name": "Ava Martinez",
+            "email": "avamartinez@example.com",
+            "photo": "https://neodrive-be91c.web.app/assets/team9-Range.jpg"
+        },
+        "bookingStatus": "Pending"
+    },
+
+
+
+    
+    {
+        "carModel": "Nissan Altima",
+        "dailyRentalPrice": 60,
+        "availabilityDate": "2025-01-15",
+        "vehicleRegistrationNumber": "SAN-FRANCISCO-D-17-1024",
+        "features": [
+            "GPS",
+            "Bluetooth Connectivity",
+            "Rearview Camera"
+        ],
+        "description": "A comfortable and efficient mid-size sedan.",
+        "bookingCount": 0,
+        "imageUrl": "https://i.ibb.co.com/nissan-altima.jpg",
+        "location": "San Francisco, CA",
+        "saveUserDetails": {
+            "name": "Jack Anderson",
+            "email": "jackanderson@example.com",
+            "photo": "https://neodrive-be91c.web.app/assets/team10-Nissan.jpg"
+        },
+        "bookingStatus": "Pending"
+    },
+    {
+        "carModel": "Mazda CX-5",
+        "dailyRentalPrice": 80,
+        "availabilityDate": "2025-01-20",
+        "vehicleRegistrationNumber": "TORONTO-D-18-2345",
+        "features": [
+            "GPS",
+            "AC",
+            "All-Wheel Drive"
+        ],
+        "description": "A stylish and sporty SUV with excellent handling.",
+        "bookingCount": 0,
+        "imageUrl": "https://i.ibb.co.com/mazda-cx-5.jpg",
+        "location": "Toronto, Canada",
+        "saveUserDetails": {
+            "name": "Emily Johnson",
+            "email": "emilyjohnson@example.com",
+            "photo": "https://neodrive-be91c.web.app/assets/team11-Mazda.jpg"
+        },
+        "bookingStatus": "Pending"
+    },
+    {
+        "carModel": "Kia Sorento",
+        "dailyRentalPrice": 75,
+        "availabilityDate": "2025-02-10",
+        "vehicleRegistrationNumber": "MELBOURNE-D-19-4567",
+        "features": [
+            "GPS",
+            "Heated Seats",
+            "Bluetooth Connectivity"
+        ],
+        "description": "A versatile SUV with plenty of space for passengers and cargo.",
+        "bookingCount": 0,
+        "imageUrl": "https://i.ibb.co.com/kia-sorento.jpg",
+        "location": "Melbourne, Australia",
+        "saveUserDetails": {
+            "name": "Chloe Martin",
+            "email": "chloemartin@example.com",
+            "photo": "https://neodrive-be91c.web.app/assets/team12-Kia.jpg"
+        },
+        "bookingStatus": "Pending"
+    },
+    {
+        "carModel": "Hyundai Elantra",
+        "dailyRentalPrice": 65,
+        "availabilityDate": "2025-02-15",
+        "vehicleRegistrationNumber": "DUBAI-D-20-5678",
+        "features": [
+            "GPS",
+            "Bluetooth Connectivity",
+            "Sunroof"
+        ],
+        "description": "A compact sedan with a sleek design and modern features.",
+        "bookingCount": 0,
+        "imageUrl": "https://i.ibb.co.com/hyundai-elantra.jpg",
+        "location": "Dubai, UAE",
+        "saveUserDetails": {
+            "name": "Aiden Williams",
+            "email": "aidenwilliams@example.com",
+            "photo": "https://neodrive-be91c.web.app/assets/team13-Hyundai.jpg"
+        },
+        "bookingStatus": "Pending"
+    },
+    {
+        "carModel": "Subaru Outback",
+        "dailyRentalPrice": 90,
+        "availabilityDate": "2025-03-01",
+        "vehicleRegistrationNumber": "SYDNEY-D-21-6789",
+        "features": [
+            "GPS",
+            "All-Wheel Drive",
+            "Roof Rack"
+        ],
+        "description": "A rugged SUV built for adventure and off-road capabilities.",
+        "bookingCount": 0,
+        "imageUrl": "https://i.ibb.co.com/subaru-outback.jpg",
+        "location": "Sydney, Australia",
+        "saveUserDetails": {
+            "name": "Lily Brown",
+            "email": "lilybrown@example.com",
+            "photo": "https://neodrive-be91c.web.app/assets/team14-Subaru.jpg"
+        },
+        "bookingStatus": "Pending"
+    },
+    {
+        "carModel": "Volkswagen Jetta",
+        "dailyRentalPrice": 70,
+        "availabilityDate": "2025-03-10",
+        "vehicleRegistrationNumber": "LOS-ANGELES-D-22-7890",
+        "features": [
+            "GPS",
+            "AC",
+            "Bluetooth Connectivity"
+        ],
+        "description": "A compact sedan with a comfortable ride and modern technology.",
+        "bookingCount": 0,
+        "imageUrl": "https://i.ibb.co.com/volkswagen-jetta.jpg",
+        "location": "Los Angeles, CA",
+        "saveUserDetails": {
+            "name": "James Wilson",
+            "email": "jameswilson@example.com",
+            "photo": "https://neodrive-be91c.web.app/assets/team15-Volkswagen.jpg"
+        },
+        "bookingStatus": "Pending"
+    },
+    {
+        "carModel": "Porsche 911",
+        "dailyRentalPrice": 200,
+        "availabilityDate": "2025-03-15",
+        "vehicleRegistrationNumber": "LONDON-D-23-8901",
+        "features": [
+            "GPS",
+            "Convertible",
+            "Premium Sound System"
+        ],
+        "description": "A high-performance sports car with luxury features.",
+        "bookingCount": 0,
+        "imageUrl": "https://i.ibb.co.com/porsche-911.jpg",
+        "location": "London, UK",
+        "saveUserDetails": {
+            "name": "Charlotte Martinez",
+            "email": "charlottemartinez@example.com",
+            "photo": "https://neodrive-be91c.web.app/assets/team16-Porsche.jpg"
+        },
+        "bookingStatus": "Pending"
+    },
+    {
+        "carModel": "Lexus RX",
+        "dailyRentalPrice": 130,
+        "availabilityDate": "2025-03-20",
+        "vehicleRegistrationNumber": "TOKYO-D-24-9012",
+        "features": [
+            "GPS",
+            "Luxury Interior",
+            "All-Wheel Drive"
+        ],
+        "description": "A luxurious SUV with a smooth ride and advanced features.",
+        "bookingCount": 0,
+        "imageUrl": "https://i.ibb.co.com/lexus-rx.jpg",
+        "location": "Tokyo, Japan",
+        "saveUserDetails": {
+            "name": "Harper Davis",
+            "email": "harperdavis@example.com",
+            "photo": "https://neodrive-be91c.web.app/assets/team17-Lexus.jpg"
+        },
+        "bookingStatus": "Pending"
+    },
+    {
+        "carModel": "Volvo XC60",
+        "dailyRentalPrice": 100,
+        "availabilityDate": "2025-03-25",
+        "vehicleRegistrationNumber": "STOCKHOLM-D-25-0123",
+        "features": [
+            "GPS",
+            "AC",
+            "Advanced Safety Features"
+        ],
+        "description": "A safe and comfortable SUV with modern technology.",
+        "bookingCount": 0,
+        "imageUrl": "https://i.ibb.co.com/volvo-xc60.jpg",
+        "location": "Stockholm, Sweden",
+        "saveUserDetails": {
+            "name": "Henry Martin",
+            "email": "henrymartin@example.com",
+            "photo": "https://neodrive-be91c.web.app/assets/team18-Volvo.jpg"
+        },
+        "bookingStatus": "Pending"
+    },
+    {
+        "carModel": "Jaguar F-Pace",
+        "dailyRentalPrice": 150,
+        "availabilityDate": "2025-04-01",
+        "vehicleRegistrationNumber": "NEW-YORK-D-26-1234",
+        "features": [
+            "GPS",
+            "Luxury Design",
+            "Panoramic Roof"
+        ],
+        "description": "A luxury SUV with high performance and stylish design.",
+        "bookingCount": 0,
+        "imageUrl": "https://i.ibb.co.com/jaguar-f-pace.jpg",
+        "location": "New York, NY",
+        "saveUserDetails": {
+            "name": "Amelia Hernandez",
+            "email": "ameliahernandez@example.com",
+            "photo": "https://neodrive-be91c.web.app/assets/team19-Jaguar.jpg"
+        },
+        "bookingStatus": "Pending"
+    }
+]

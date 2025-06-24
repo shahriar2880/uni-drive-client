@@ -1,0 +1,65 @@
+[
+    {
+        "rating": 5,
+        "review": "Renting a car from Nova Ride was a great decision. Not only did I get a reliable and comfortable vehicle, but the prices were also very competitive. Excellent service from start to finish. Rent Ride is my go-to car rental service.",
+        "name": "David Wilson",
+        "position": "Sales Manager",
+        "profile_picture": "https://flowbite.s3.amazonaws.com/blocks/marketing-ui/avatars/joseph-mcfall.png"
+    },
+    {
+        "rating": 4,
+        "review": "Renting a car from Nova Ride was a great decision. Not only did I get a reliable and comfortable vehicle, but the prices were also very competitive. Rent Ride offered excellent customer service and a smooth rental process. Highly recommend.",
+        "name": "Anna Martinez",
+        "position": "HR Manager",
+        "profile_picture": "https://flowbite.s3.amazonaws.com/blocks/marketing-ui/avatars/roberta-casas.png"
+    },
+    {
+        "rating": 5,
+        "review": "Renting a car from Nova Ride was a great decision. Not only did I get a reliable and comfortable vehicle, but the prices were also very competitive. Amazing experience! Rent Ride's vehicles are reliable and the prices are unbeatable.",
+        "name": "James Thompson",
+        "position": "Business Analyst",
+        "profile_picture": "https://flowbite.s3.amazonaws.com/blocks/marketing-ui/avatars/jese-leos.png"
+    },
+    {
+        "rating": 4,
+        "review": "Renting a car from Nova Ride was a great decision. Not only did I get a reliable and comfortable vehicle, but the prices were also very competitive. Overall, a great rental experience with Rent Ride. The car was in great shape and the staff were helpful.",
+        "name": "Lisa Clark",
+        "position": "Event Planner",
+        "profile_picture": "http://flowbite.s3.amazonaws.com/blocks/marketing-ui/avatars/karen-nelson.png"
+    },
+    {
+        "rating": 5,
+        "review": "Renting a car from Nova Ride was a great decision. Not only did I get a reliable and comfortable vehicle, but the prices were also very competitive. Rent Ride's service was outstanding and the car was perfect for my needs.",
+        "name": "Neil Sims",
+        "position": "Developer",
+        "profile_picture": "http://flowbite.com/docs/images/people/profile-picture-1.jpg"
+    },
+    {
+        "rating": 4,
+        "review": "Renting a car from Nova Ride was a great decision. Not only did I get a reliable and comfortable vehicle, but the prices were also very competitive. Smooth process and a clean car. Rent Ride made everything so easy.",
+        "name": "Bonnie Green",
+        "position": "Designer",
+        "profile_picture": "http://flowbite.com/docs/images/people/profile-picture-3.jpg"
+    },
+    {
+        "rating": 5,
+        "review": "Renting a car from Nova Ride was a great decision. Not only did I get a reliable and comfortable vehicle, but the prices were also very competitive. Excellent service from start to finish. Rent Ride is my go-to car rental service.",
+        "name": "Michael Gough",
+        "position": "Consultant",
+        "profile_picture": "https://flowbite.com/docs/images/people/profile-picture-2.jpg"
+    },
+    {
+        "rating": 4,
+        "review": "Renting a car from Nova Ride was a great decision. Not only did I get a reliable and comfortable vehicle, but the prices were also very competitive. Great car and friendly service. Rent Ride exceeded my expectations.",
+        "name": "Lana Byrd",
+        "position": "Writer",
+        "profile_picture": "https://flowbite.com/docs/images/people/profile-picture-4.jpg"
+    },
+    {
+        "rating": 5,
+        "review": "Renting a car from Nova Ride was a great decision. Not only did I get a reliable and comfortable vehicle, but the prices were also very competitive. Rent Ride's team was professional and the car was in excellent condition.",
+        "name": "Thomas Lean",
+        "position": "Engineer",
+        "profile_picture": "https://flowbite.com/docs/images/people/profile-picture-5.jpg"
+    }
+]

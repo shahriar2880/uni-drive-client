@@ -1,0 +1,68 @@
+/* modalStyles.css */
+.customModal {
+  background: #060b17;
+  max-width: 600px;
+  width: 100%;
+  border-radius: 12px;
+  padding: 0;
+}
+
+.customOverlay {
+  background: rgba(0, 0, 0, 0.8);
+}
+
+/* DatePicker custom styles */
+.react-datepicker {
+  background-color: #1f2937 !important;
+  border: 1px solid #374151 !important;
+}
+
+.react-datepicker__header {
+  background-color: #111827 !important;
+  border-bottom: 1px solid #374151 !important;
+}
+
+.react-datepicker__current-month,
+.react-datepicker__day-name,
+.react-datepicker__day {
+  color: white !important;
+}
+
+.react-datepicker__day:hover {
+  background-color: #ff3600 !important;
+}
+
+.react-datepicker__day--selected {
+  background-color: #ff3600 !important;
+}
+
+.react-datepicker__day--disabled {
+  color: #6b7280 !important;
+}
+
+.react-datepicker__navigation-icon::before {
+  border-color: white !important;
+}
+
+.react-datepicker__day--keyboard-selected {
+  background-color: #ff3600 !important;
+}
+
+/* Style for the close button */
+.react-responsive-modal-closeButton {
+  background-color: transparent !important;
+  fill: #ff3600 !important; /* Red color matching your theme */
+  transition: transform 0.2s ease !important;
+}
+
+/* Hover effect */
+.react-responsive-modal-closeButton:hover {
+  transform: scale(1.1) !important;
+  fill: #ff4d1a !important; /* Slightly lighter red on hover */
+}
+
+/* The SVG icon itself */
+.react-responsive-modal-closeButton svg {
+  width: 28px;
+  height: 28px;
+}
