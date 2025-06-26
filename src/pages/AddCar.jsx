@@ -362,7 +362,7 @@ const AddCar = () => {
                             } text-white font-bold hover:bg-gradient-to-l transition-all duration-300 border-none`}
                     >
                         {isLoading ? "Adding Car..." : "Add Car"}
-                    </button>;
+                    </button>
                 </form>
             </div>
         </div>
