@@ -34,8 +34,8 @@ const Navbar = () => {
                         user ?
                             <div className='flex items-center gap-2 max-w-[100%] overflow-hidden shrink-0'>
                                 <div className="avatar" data-tooltip-id="avatar-tooltip">
-                                    <div className="w-8 h-8 rounded-full overflow-hidden ring-2 ring-error ring-offset-2">
-                                        <img className='object-cover w-full h-full' src={`${user.photoURL}`} />
+                                    <div className="bg-gradient-to-r from-purple-500 to-pink-500 text-white rounded-full w-8 h-8 flex items-center justify-center ring-3 ring-red-500">
+                                        <img className='w-full h-full rounded-full object-cover' src={`${user.photoURL}`} />
                                     </div>
                                 </div>
                                 <Tooltip className="z-10" id="avatar-tooltip">{user.displayName}</Tooltip>
