@@ -15,7 +15,7 @@ const Home = () => {
     }, []);
 
     return (
-        <div>
+        <div className="">
             <Helmet>
                 <title>Home | Uni Drive</title>
             </Helmet>

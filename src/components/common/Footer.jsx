@@ -2,46 +2,59 @@ import { FaFacebook, FaInstagram, FaTwitter } from 'react-icons/fa';
 
 const Footer = () => {
     return (
-        <div className="bg-black text-gray-300 py-8">
-            <div className='flex flex-col md:flex-row justify-evenly gap-6 w-11/12 mx-auto'>
-                <div className='space-y-3'>
-                    <div className='flex items-center gap-1'>
-                        <h2 className='text-2xl font-bold text-white'><span className='text-red-600'>Uni</span>Drive</h2>
-                    </div>
-                    <p className='text-sm'>Experience the ease and convenience of renting a car with Rent Ride..</p>
+        <footer className="bg-black text-gray-300 py-10">
+            <div className="w-11/12 mx-auto flex flex-col md:flex-row justify-between gap-10">
+                {/* Brand Section */}
+                <div className="space-y-4 max-w-xs">
+                    <h2 className="text-2xl font-bold text-white">
+                        <span className="text-red-600">Uni</span>Drive
+                    </h2>
+                    <p className="text-sm">
+                        Experience the ease and convenience of renting a car with UniDrive.
+                    </p>
                 </div>
-                <div className='space-y-3'>
-                    <h4 className='text-white font-medium'>Stay Updated</h4>
-                    <p className='text-sm'>Subscribe to get the latest cars and deals delivered to your inbox.</p>
-                    <fieldset className="form-control w-80">
-                        <div className="join">
-                            <input
-                                type="text"
-                                placeholder="Your E-mail"
-                                className="input input-bordered join-item" />
-                            <button className="bg-gradient-to-r from-[#FF3600] to-[#ff3700d7]  text-white font-semibold py-2 px-4 rounded">Subscribe</button>
-                        </div>
-                    </fieldset>
+
+                {/* Subscription Section */}
+                <div className="space-y-4 max-w-sm">
+                    <h4 className="text-white font-semibold text-lg">Stay Updated</h4>
+                    <p className="text-sm">
+                        Subscribe to get the latest cars and deals delivered to your inbox.
+                    </p>
+                    <form className="flex flex-col sm:flex-row items-center gap-3">
+                        <input
+                            type="email"
+                            placeholder="Your E-mail"
+                            className="input input-bordered w-full sm:w-auto flex-1 px-4 py-2 rounded focus:outline-none"
+                            required
+                        />
+                        <button
+                            type="submit"
+                            className="bg-gradient-to-r from-[#FF3600] to-[#ff3700d7] text-white font-semibold px-5 py-2 rounded hover:scale-105 transition-transform"
+                        >
+                            Subscribe
+                        </button>
+                    </form>
                 </div>
-                <div className='space-y-3'>
-                    <h4 className='text-white font-medium'>Contact Us</h4>
-                    <p className='text-sm'>Have a question? We&apos;re here to help.</p>
-                    <h3 className='text-white text-lg font-bold'>+8801608456891</h3>
-                    <div className='flex items-center gap-4 text-2xl'>
-                        <FaInstagram className='cursor-pointer hover:text-[#E1713B]' />
-                        <FaFacebook className='cursor-pointer hover:text-sky-500' />
-                        <FaTwitter className='cursor-pointer hover:text-sky-500' />
+
+                {/* Contact Section */}
+                <div className="space-y-4 max-w-xs">
+                    <h4 className="text-white font-semibold text-lg">Contact Us</h4>
+                    <p className="text-sm">Have a question? We&apos;re here to help.</p>
+                    <p className="text-lg font-bold text-white">+8801608456891</p>
+                    <div className="flex gap-4 text-2xl">
+                        <FaInstagram className="cursor-pointer hover:text-pink-500" />
+                        <FaFacebook className="cursor-pointer hover:text-blue-500" />
+                        <FaTwitter className="cursor-pointer hover:text-sky-400" />
                     </div>
                 </div>
             </div>
-            <div>
-                <div className='border border-t-white mt-3'></div>
-                <div className='w-11/12 mx-auto text-center pt-6 space-y-2'>
-                    <p className='text-xs '>© 2025 UniDrive. All Rights Reserved.</p>
-                    <p className='text-xs '>Privacy | PolicyTerms | Conditions</p>
-                </div>
+
+            {/* Bottom Line */}
+            <div className="mt-10 border-t border-gray-700 pt-6 text-center text-xs text-gray-400">
+                <p>© 2025 UniDrive. All Rights Reserved.</p>
+                <p>Privacy Policy | Terms & Conditions</p>
             </div>
-        </div>
+        </footer>
     );
 };
 

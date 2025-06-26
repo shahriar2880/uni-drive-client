@@ -62,7 +62,7 @@ const AvailableCars = () => {
             <div>
                 <Hero />
             </div>
-            <div className="flex justify-between items-center space-x-4 w-11/12 mx-auto my-10">
+            <div className="flex flex-col md:flex-row md:justify-between items-center flex-wrap gap-4 w-11/12 mx-auto my-10">
                 <select
                     className="px-4 py-2 rounded-lg w-full md:w-auto bg-gray-950 text-white font-semibold border border-slate-200"
                     value={sortOption}

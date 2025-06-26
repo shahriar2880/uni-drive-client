@@ -24,7 +24,7 @@ const Navbar = () => {
     }
 
     return (
-        <nav className="bg-black w-full z-20 top-0 start-0">
+        <nav className="bg-black w-full z-20 top-0 left-0 overflow-x-hidden">
             <div className="max-w-screen-xl flex flex-wrap items-center justify-between mx-auto p-4">
                 <a href="/" className="flex items-center space-x-3 rtl:space-x-reverse">
                     <span className="self-center text-2xl font-bold whitespace-nowrap text-white"><span className='text-red-600'>Uni</span>Drive</span>
@@ -32,15 +32,15 @@ const Navbar = () => {
                 <div className="flex md:order-2 space-x-3 md:space-x-0 rtl:space-x-reverse items-center">
                     {
                         user ?
-                            <div className='flex items-center gap-4'>
+                            <div className='flex items-center gap-2 max-w-[100%] overflow-hidden shrink-0'>
                                 <div className="avatar" data-tooltip-id="avatar-tooltip">
-                                    <div className="ring-error ring-offset-base-100 w-10 rounded-full ring ring-offset-2">
-                                        <img className='z-10 w-full h-full' src={`${user.photoURL}`} />
+                                    <div className="w-8 h-8 rounded-full overflow-hidden ring-2 ring-error ring-offset-2">
+                                        <img className='object-cover w-full h-full' src={`${user.photoURL}`} />
                                     </div>
                                 </div>
                                 <Tooltip className="z-10" id="avatar-tooltip">{user.displayName}</Tooltip>
 
-                                <button onClick={handleSignout} className="btn btn-sm md:btn-md mr-2 bg-gradient-to-r from-[#FF3600] to-[#ff3700d7] text-white font-bold hover:bg-gradient-to-l transition-all duration-300 border-none">Logout</button>
+                                <button onClick={handleSignout} className="btn btn-sm px-3 py-1 text-sm font-semibold bg-gradient-to-r from-[#FF3600] to-[#ff3700d7] text-white hover:bg-gradient-to-l transition-all duration-300 border-none">Logout</button>
 
                             </div>
                             :
