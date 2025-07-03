@@ -1,10 +1,10 @@
-# RentRental 🚗  
+# UniDrive 🚗  
 Your ultimate car rental platform to explore, manage, and book your preferred vehicles seamlessly.  
 
 ---
 
 ## Live Site 🌐  
-[Visit RentRental](https://rent-rental.netlify.app/)  
+[Visit UniDrive](https://uni-drive-client.vercel.app/)  
 
 ---
 
@@ -84,7 +84,6 @@ Your ultimate car rental platform to explore, manage, and book your preferred ve
 - **404 Page**: User-friendly page with a "Back to Home" button for incorrect routes.  
 - **Loading Spinner**: Visible when data is being fetched.  
 - **Pagination**: Server-side pagination on the "My Cars" page (optional).  
-- **Incremental Booking Updates**: Use MongoDB operators like `$inc` to track booking counts.  
 
 ---
 
