@@ -111,7 +111,7 @@ const Modal = ({ open, onClose, car, handleSaveChanges, myRef }) => {
                 bookingStatus: car.bookingStatus || "Available"
             };
 
-            const response = await axios.put(`https://neo-drive-server.vercel.app/cars/${car._id}`, carData);
+            const response = await axios.put(`https://uni-drive-client.vercel.app/cars/${car._id}`, carData);
             
             if (response.data.modifiedCount > 0) {
                 Swal.fire({

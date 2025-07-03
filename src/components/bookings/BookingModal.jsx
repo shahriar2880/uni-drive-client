@@ -15,7 +15,7 @@ const BookingModal = ({ carInformation, onClose }) => {
         const bookingData = { ...carInformation, bookingDate: currentDate, booked_user: user.email };
         console.log(bookingData)
 
-        axios.post('https://neo-drive-server.vercel.app/booking-cars', bookingData)
+        axios.post('https://uni-drive-client.vercel.app/booking-cars', bookingData)
             .then(response => {
                 console.log(response);
                 SuccessToaster('Booking confirmed.');

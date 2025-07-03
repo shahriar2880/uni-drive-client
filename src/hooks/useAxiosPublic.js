@@ -1,7 +1,7 @@
 import axios from "axios";
 
 const axiosPublic = axios.create({
-    baseURL: 'https://neo-drive-server.vercel.app'
+    baseURL: 'https://uni-drive-client.vercel.app'
 })
 const useAxiosPublic = () => {
     return axiosPublic;

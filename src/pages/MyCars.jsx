@@ -18,7 +18,7 @@ const MyCars = () => {
 
     const fetchCars = () => {
         setLoading(true);
-        axios.get(`https://neo-drive-server.vercel.app/my-cars/${user.email}`)
+        axios.get(`https://uni-drive-client.vercel.app/my-cars/${user.email}`)
             .then(response => {
                 setAddedCars(response.data);
                 setLoading(false);
@@ -56,7 +56,7 @@ const MyCars = () => {
             confirmButtonText: "Yes, delete it!"
         }).then((result) => {
             if (result.isConfirmed) {
-                axios.delete(`https://neo-drive-server.vercel.app/cars/${id}`)
+                axios.delete(`https://uni-drive-client.vercel.app/cars/${id}`)
                     .then(response => {
                         if (response.data.deletedCount > 0) {
                             Swal.fire({
