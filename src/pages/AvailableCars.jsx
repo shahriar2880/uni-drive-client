@@ -2,7 +2,7 @@ import { useEffect, useState } from "react";
 import Hero from "../components/availableCars/Hero";
 import { Helmet } from "react-helmet-async";
 import CarCard from "../components/common/CarCard";
-import SearchBar from "../components/cars/SearchBar";
+import SearchBar from "../components/car/SearchBar";
 import useAxiosPublic from "../hooks/useAxiosPublic";
 
 const AvailableCars = () => {
@@ -17,7 +17,7 @@ const AvailableCars = () => {
     const [view, setView] = useState("grid");
 
     useEffect(() => {
-        axiosPublic.get('/cars')
+        axiosPublic.get('/car')
             .then(response => {
                 setCars(response.data);
             })

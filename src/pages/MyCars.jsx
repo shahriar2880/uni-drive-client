@@ -56,7 +56,7 @@ const MyCars = () => {
             confirmButtonText: "Yes, delete it!"
         }).then((result) => {
             if (result.isConfirmed) {
-                axios.delete(`https://uni-drive-client.vercel.app/cars/${id}`)
+                axios.delete(`https://uni-drive-client.vercel.app/car/${id}`)
                     .then(response => {
                         if (response.data.deletedCount > 0) {
                             Swal.fire({

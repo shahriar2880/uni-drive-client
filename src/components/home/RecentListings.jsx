@@ -60,7 +60,7 @@ const RecentListings = () => {
                         </div>
 
                         {/* Rent Now Button */}
-                        <Link to={`/cars/${recentCar._id}`} className="px-5 pb-5">
+                        <Link to={`/car/${recentCar._id}`} className="px-5 pb-5">
                             <button className="w-full py-2 font-semibold bg-gradient-to-r from-[#FF3600] to-[#ff3700d7] text-white hover:bg-gradient-to-l transition-all duration-300 border-none rounded-lg hover:scale-105">
                                 Rent Now
                             </button>

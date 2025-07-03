@@ -30,7 +30,7 @@ const router = createBrowserRouter([
             {
                 path: "cars/:id",
                 element: <CarDetails />,
-                loader: ({params}) => fetch(`https://uni-drive-client.vercel.app/cars/${params.id}`)
+                loader: ({params}) => fetch(`https://uni-drive-client.vercel.app/car/${params.id}`)
             },
             {
                 path: "login",

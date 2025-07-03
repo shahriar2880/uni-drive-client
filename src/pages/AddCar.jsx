@@ -119,7 +119,7 @@ const AddCar = () => {
             };
 
             // Send the car data to the server
-            const response = await axiosPublic.post("/cars", carData);
+            const response = await axiosPublic.post("/car", carData);
             if (response.data.insertedId) {
                 Swal.fire({
                     title: "Car successfully added",
